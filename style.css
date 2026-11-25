@@ -1,0 +1,474 @@
+﻿
+
+* {
+ 
+   margin: 0;
+   
+ padding: 0;
+  
+  box-sizing:
+ border-box;
+
+}
+
+
+body {
+ 
+   font-family: Tahoma, sans-serif;
+   
+ background-color: #101b2b;
+ 
+   color: #f5f7fa;
+ 
+   line-height: 1.8;
+
+}
+
+
+/* Header */
+
+header 
+{
+   
+ background-color: #243a73;
+ 
+   color: #f5f7fa;
+   
+ padding: 20px 40px;
+   
+ display: flex;
+  
+  justify-content: space-between;
+ 
+   align-items: center;
+}
+
+
+header h1 {
+  
+  color: #f5f7fa;
+ 
+   font-size: 30px;
+
+}
+
+
+nav {
+    display: flex;
+ 
+   gap: 25px;
+
+}
+
+
+nav a {
+  
+  color: #f5f7fa;
+  
+  text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+
+nav a:hover 
+color: #3B82A0;
+
+}
+
+
+/* Home Section */
+
+#home {
+   
+ padding: 80px 40px;
+
+    display: flex;
+  
+  align-items: center;
+ 
+   justify-content: space-between;
+  
+  gap: 50px;
+
+    flex-wrap: wrap;
+
+    flex-direction: column;
+
+     align-items: center;
+}
+
+
+#home .home-content {
+
+    flex: 1;
+
+}
+
+
+#home h2 {
+    
+font-size: 36px;
+
+    color: #f5f7fa;
+
+    margin-bottom: 20px;
+
+}
+
+
+#home p {
+
+    margin-bottom: 25px;
+
+    color: #cbd5e1;
+
+}
+
+
+
+#home img {
+    width: 300px;
+
+    max-width: 100%;
+
+    border-radius: 15px;
+ 
+   object-fit: cover;
+
+     display: block;
+
+    margin: 0 auto;
+}
+
+
+/* Contact Button */
+
+#home .contact-btn {
+
+    display: inline-block;
+
+    background-color: #3B82A0;
+
+    color: white;
+ 
+   padding: 12px 25px;
+  
+  border-radius: 8px;
+ 
+   text-decoration: none;
+ 
+   transition: 0.3s;
+
+}
+
+
+#home .contact-btn:hover {
+
+    background-color: #f5f7fa;
+ 
+   color: #101b2b;
+ 
+   transform: scale(1.05);
+
+}
+
+
+/* About Section */
+
+#about {
+  
+  padding: 70px 40px;
+
+    text-align: center;
+ 
+   background-color: #17263a;
+
+}
+
+
+#about h2 {
+
+    font-size: 30px;
+ 
+   margin-bottom: 25px;
+
+    color: #f5f7fa;
+
+}
+
+
+#about p {
+  
+  max-width: 800px;
+
+    margin: auto;
+
+    color: #cbd5e1;
+
+}
+
+
+/* Skills Section */
+
+#skills {
+ 
+   padding: 70px 40px;
+ 
+   text-align: center;
+
+}
+
+
+#skills h2 {
+ 
+   font-size: 30px;
+
+    margin-bottom: 40px;
+
+}
+
+
+#skills .card {
+   
+                display: inline-block;
+
+    width: 280px;
+
+    min-height: 150px;
+
+    background-color: #243a73;
+
+    padding: 25px;
+
+    margin: 10px;
+ 
+   border-radius: 12px;
+
+    vertical-align: top;
+
+    transition: 0.3s;
+
+}
+
+
+#skills .card:hover {
+ 
+   transform: translateY(-8px);
+  
+  background-color: #2e4b86;
+
+}
+
+
+#skills .card h3 {
+ 
+   font-size: 19px;
+ 
+   margin-bottom: 12px;
+ 
+   color: #ffffff;
+
+}
+
+
+#skills .card p {
+  
+  color: #cbd5e1;
+
+}
+
+
+/* Contact Section */
+
+#contact {
+   
+ padding: 70px 40px;
+   
+ text-align: center;
+
+    background-color: #17263a;
+
+}
+
+
+#contact h2 {
+ 
+   font-size: 30px;
+ 
+   margin-bottom: 20px;
+
+}
+
+
+#contact p {
+  
+  max-width: 750px;
+
+    margin: 0 auto 25px;
+  
+  color: #cbd5e1;
+
+}
+
+
+#contact h3 {
+  
+  margin-bottom: 20px;
+
+}
+
+
+#contact a {
+ 
+   display: inline-block;
+ 
+   color: #ffffff;
+ 
+   background-color: #3B82A0;
+ 
+   text-decoration: none;
+
+    padding: 10px 22px;
+
+    margin: 5px;
+ 
+   border-radius: 8px;
+ 
+   transition: 0.3s;
+
+}
+
+
+#contact a:hover {
+ 
+   background-color: #f5f7fa;
+ 
+   color: #101b2b;
+
+}
+
+
+/* Footer */
+
+footer {
+   
+ background-color: #243a73;
+  
+  color: #f5f7fa;
+
+    text-align: center;
+ 
+   padding: 20px;
+
+}
+
+
+footer p {
+ 
+   margin: 5px;
+
+}
+
+
+/* Responsive Design */
+
+
+@media (max-width: 768px) {
+
+ 
+   header {
+      
+  flex-direction: column;
+ 
+       gap: 20px;
+    
+    padding: 20px;
+
+}
+
+  
+  nav {
+     
+   flex-wrap: wrap;
+ 
+       justify-content: center;
+  
+      gap: 15px;
+   
+ }
+
+    
+#home {
+ 
+       padding: 50px 20px;
+
+        flex-direction: column;
+ 
+       text-align: center;
+  
+}
+
+    
+#home h2 {
+   
+     font-size: 28px;
+}
+
+    
+#home img {
+    
+    width: 100%;
+ 
+       max-width: 350px;
+    
+}
+
+   
+ #about,
+    #skills,
+    #contact {
+        padding: 50px 20px;
+    }
+
+    #skills .card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
